@@ -1,0 +1,130 @@
+.container {
+    width: 1140px;
+    height: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-1 {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.block-1_2 {
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+}
+.block-2_1{
+    width: 15%;
+    background-color: aqua;
+}
+.block-2_2{
+    width: 15%;
+    background-color: rebeccapurple;
+}
+.block-2_3{
+    width: 15%;
+    background-color: darkcyan;
+}
+.block-2_4{
+    width: 15%;
+    background-color: antiquewhite;
+}
+.block-2_5{
+    width: 15%;
+    background-color: greenyellow;
+}
+.container-box{
+    width: 540px;
+    background-color: red;
+}
+.container-box_2{
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.block-3_1{
+    width: 220px;
+    height: 220px;
+    background-color: orange;
+}
+.block-3_2{
+    width: 220px;
+    height: 220px;
+    background-color: orange;
+}
+.block-3_3{
+    width: 220px;
+    height: 220px;
+    background-color: orange;
+}
+.block-3_4{
+    width: 220px;
+    height: 220px;
+    background-color: orange;
+}
+.container-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+    align-content: space-between;
+}
+.container-block__big{
+    width: 100%;
+    height: 60%;
+    background-color: red;
+}
+.container-block__small{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 240px;
+    background-color: red;
+}
+.box_2{
+    width: 240px;
+    background-color: red;
+}
+.container-block-2{
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.container-block-2__small{
+    width: 100%;
+    height: 60%;
+    row-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box2_1{
+    background-color: orange;
+    width: 220px;
+}
+.box2_2{
+    background-color: orange;
+    width: 220px;
+}
+.box2_3{
+    background-color: orange;
+    width: 220px;
+}
+.box2_4{
+    background-color: orange;
+    width: 220px;
+}
+.container-block-2__big{
+    width: 100%;
+    background-color: orange;
+    height: 30%;
+}
